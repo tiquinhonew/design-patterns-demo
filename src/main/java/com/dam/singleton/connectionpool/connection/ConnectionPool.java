@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ConnectionPool {
-    private static ConnectionPool singleton = new ConnectionPool();
-    public final static int POOL_SIZE = 2;
-    private List<Connection> connectionsPool;
+    private static final ConnectionPool singleton = new ConnectionPool();
+    public static final int POOL_SIZE = 2;
+    private final List<Connection> connectionsPool;
 
     public static ConnectionPool getInstance() {
         return singleton;
@@ -14,26 +14,26 @@ public class ConnectionPool {
 
     private ConnectionPool() {
         System.out.println("Creating Connection Pool");
-        connectionsPool = new ArrayList<Connection>();
+        connectionsPool = new ArrayList<>();
         for(int i = 0; i < POOL_SIZE; i++) {
             connectionsPool.add(new Connection());
         }
     }
 
     public Connection getConnection() {
-        Connection avaiable = null;
+        Connection available = null;
         for(Connection conn: connectionsPool) {
             if(!conn.isInUse()) {
-                avaiable = conn;
+                available = conn;
                 break;
             }
         }
-        if(avaiable == null) {
-            System.out.println("No Connections avaiable");
+        if(available == null) {
+            System.out.println("No Connections available");
             return null;
         }
-        avaiable.setInUse(true);
-        return avaiable;
+        available.setInUse(true);
+        return available;
     }
 
     public void leaveConnection(Connection conn) {

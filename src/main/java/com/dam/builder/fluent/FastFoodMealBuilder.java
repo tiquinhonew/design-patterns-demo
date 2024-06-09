@@ -1,4 +1,4 @@
-package com.dam.builder;
+package com.dam.builder.fluent;
 
 public class FastFoodMealBuilder {
 

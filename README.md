@@ -18,6 +18,8 @@
 
 ---
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0ed4f05ca7d54045bb059bd85c09a8fd)](https://app.codacy.com/gh/tiquinhonew/design-patterns-demo?utm_source=github.com&utm_medium=referral&utm_content=tiquinhonew/design-patterns-demo&utm_campaign=Badge_Grade)
+
 Aplicação demo, desenvolvida no curso sobre padrões de projetos da [Cod3r Cursos Online](https://www.udemy.com/user/cod3r-3/).
 
 ### :link: GoF

@@ -8,9 +8,6 @@ public class FastFoodMealBuilder {
     private String dessert;
     private String gift;
 
-    public FastFoodMealBuilder() {
-    }
-
     public FastFoodMealBuilder withDrink(final String drink) {
         this.drink = drink;
         return this;

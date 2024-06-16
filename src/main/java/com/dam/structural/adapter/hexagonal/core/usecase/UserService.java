@@ -12,10 +12,10 @@ public class UserService {
         this.userRepo = userRepo;
     }
 
-    public void saveUser(User user) {
+    public void saveUser(User user) throws Exception {
         boolean alreadyUsedEmail = userRepo.getAll().stream()
             .anyMatch(userDb -> userDb.getEmail().equalsIgnoreCase(user.getEmail()));
-        if(alreadyUsedEmail) throw new RuntimeException("Email address already exists!");
+        if(alreadyUsedEmail) throw new Exception("Email address already exists!");
         userRepo.save(user);
     }
 

@@ -45,7 +45,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.dam.abstractfactory.Client</mainClass>
+                                    <mainClass>com.dam.creational.abstractfactory.Client</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
@@ -64,7 +64,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>com.dam.builder.fluent.Client</mainClass>
+                                    <mainClass>com.dam.creational.builder.fluent.Client</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>

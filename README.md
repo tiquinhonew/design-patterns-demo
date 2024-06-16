@@ -2,7 +2,7 @@
 <h2 align="center">Padrões de Projeto em JAVA</h2>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/top/tiquinhonew/design-patterns-demo">
-  <a href="https://www.codacy.com/gh/tiquinhonew/design-patterns-demo/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tiquinhonew/design-patterns-demo&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/04ee2f9a924940bba341ae08b03d9163"/></a>
+  <a href="https://app.codacy.com/gh/tiquinhonew/design-patterns-demo/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/46449a911bba4046ba04410f6bc7ee72"/></a>
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/tiquinhonew/design-patterns-demo?color=blueviolet">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tiquinhonew/design-patterns-demo?color=orange">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/tiquinhonew/design-patterns-demo">
